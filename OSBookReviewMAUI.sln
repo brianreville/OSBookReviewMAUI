@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSBookReviewMAUI", "OSBookReviewMAUI.csproj", "{1AA266D9-261A-4CA1-A724-A31658092D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSDataAccessLibrary", "..\OSDataAccessLibrary\OSDataAccessLibrary.csproj", "{0B54F96D-7421-407C-AC52-1EA4CB42BCDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSDataAccessLibrary", "..\OSDataAccessLibrary\OSDataAccessLibrary.csproj", "{0B54F96D-7421-407C-AC52-1EA4CB42BCDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSBookReviewWepApi", "..\OSBookReviewWepApi\OSBookReviewWepApi.csproj", "{75C382D6-4523-4EE2-8ADF-3B9E0E1730B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{0B54F96D-7421-407C-AC52-1EA4CB42BCDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B54F96D-7421-407C-AC52-1EA4CB42BCDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B54F96D-7421-407C-AC52-1EA4CB42BCDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C382D6-4523-4EE2-8ADF-3B9E0E1730B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C382D6-4523-4EE2-8ADF-3B9E0E1730B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C382D6-4523-4EE2-8ADF-3B9E0E1730B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C382D6-4523-4EE2-8ADF-3B9E0E1730B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
