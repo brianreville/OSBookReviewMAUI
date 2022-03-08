@@ -125,3 +125,10 @@ GoogleGson.aar
 Xamarin.AndroidX.Browser.aar
 Xamarin.AndroidX.Concurrent.Futures.aar
 Xamarin.Google.Crypto.Tink.Android.aar
+Microsoft.AppCenter.Android.Bindings.dll
+Microsoft.AppCenter.dll
+Microsoft.AppCenter.Crashes.Android.Bindings.dll
+Microsoft.AppCenter.Crashes.dll
+Microsoft.AppCenter.Analytics.Android.Bindings.dll
+Microsoft.AppCenter.Analytics.dll
+Plugin.Settings.dll
