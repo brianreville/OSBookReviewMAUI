@@ -14,8 +14,15 @@ namespace OSBookReviewMAUI
         {
             InitializeComponent();
             // Register routes for the shell
+            Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
+            Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
             Routing.RegisterRoute(nameof(AuthorList), typeof(AuthorList));
+        }
 
+        // for login form
+        private async void OnMenuItemClicked(object sender, EventArgs e)
+        {
+            await Current.GoToAsync("//LoginPage");
         }
     }
 }

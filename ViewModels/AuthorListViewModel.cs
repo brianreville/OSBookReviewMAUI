@@ -10,14 +10,14 @@ namespace OSBookReviewMAUI.ViewModels
 
         public ObservableCollection<Author> Authors { get; }
         public Command LoadAuthorsCommand { get; }
-        public Command<Author> AuthorTapped { get; }
+        // public Command<Author> AuthorTapped { get; }
 
         public AuthorListViewModel()
         {
             Authors = new ObservableCollection<Author>();
             LoadAuthorsCommand = new Command(async () => await ExecuteLoadAuthorsCommand());
 
-            AuthorTapped = new Command<Author>(OnAuthorSelected);
+            //AuthorTapped = new Command<Author>(OnAuthorSelected);
         }
 
         private async Task ExecuteLoadAuthorsCommand()
@@ -46,7 +46,7 @@ namespace OSBookReviewMAUI.ViewModels
         public void OnAppearing()
         {
             IsBusy = true;
-            SelectedItem = null;
+            //SelectedItem = null;
         }
 
         public Author SelectedItem
@@ -63,6 +63,10 @@ namespace OSBookReviewMAUI.ViewModels
         {
             if (author == null)
                 return;
+            else
+            {
+                return;
+            }
 
             //TODO: Create Author Detail Page
             // This will push the AuthorDetailPage onto the navigation stack

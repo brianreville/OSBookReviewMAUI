@@ -1,37 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage  xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:OSBookReviewMAUI.Models"
+             xmlns:local="clr-namespace:OSBookReviewMAUI.ViewModels"
+             x:DataType="local:AuthorListViewModel"
              x:Class="OSBookReviewMAUI.Views.AuthorList">
     <ContentPage.Content>
-        <CollectionView ItemsSource="{Binding Authors}"
-                ItemsLayout="VerticalGrid, 2">
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid Padding="10" RowDefinitions="60" ColumnDefinitions="70,*">
-                        <Image Grid.RowSpan="2" 
-                        Source="{Binding ImageUrl}" 
-                        Aspect="AspectFill"
-                        HeightRequest="60" 
-                        WidthRequest="60">
-                            <Image.Clip>
-                                <RectangleGeometry Rect="0,0,160,160"/>
-                            </Image.Clip>
-                        </Image>
-                        <Label Grid.Column="1" 
-                        Text="{Binding Name}" 
-                        FontAttributes="Bold"
-                        TextColor="White"
-                        VerticalOptions="Start"
-                        LineBreakMode="TailTruncation" />
-                        <Label Grid.Column="1" 
-                        Text="{Binding Location}"
-                        LineBreakMode="TailTruncation"
-                        FontAttributes="Italic" 
-                        TextColor="White"
-                        VerticalOptions="End" />
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+        <RefreshView x:DataType="local:AuthorListViewModel" Command="{Binding LoadAuthorsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+            <StackLayout Margin="2">
+                <Label
+                    Text="Top 50 Authors List"
+                    FontSize="Header"
+                    TextColor="Black">                    
+                </Label>
+                <CollectionView x:Name="TopAuthorListView"
+                        ItemsSource="{Binding Authors}"
+                        SelectionMode="Single"
+                        BackgroundColor="{DynamicResource PrimaryColor}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <SwipeView x:DataType="model:Author">
+                                <SwipeView.RightItems>
+                                    <SwipeItems Mode="Reveal">
+                                        <SwipeItem
+                                    Text="View Author's Books"
+                                    IconImageSource="edit_icon.png"
+                                    BackgroundColor="Green"
+                                    Command="{Binding Path=BindingContext.AuthorTapped, Source={x:Reference Name=AuthorList}}"
+                                    CommandParameter="{Binding}">
+                                        </SwipeItem>
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+                                <SwipeView.Content>
+                                    <StackLayout x:Name="Stack" Padding="10" x:DataType="model:Author">
+                                        <Label
+                                       Text="{Binding AuthorName, StringFormat='Author Name :{0}'}"
+                                       LineBreakMode="NoWrap"
+                                       FontSize="16"
+                                       TextColor="Black">
+                                        </Label>
+                                        <Label
+                                       Text="{Binding AuthorBooks.Count, StringFormat='Number of Authored Books :{0}'}"
+                                       LineBreakMode="NoWrap"
+                                       FontSize="16"
+                                       TextColor="Black">
+                                        </Label>
+                                    </StackLayout>
+                                </SwipeView.Content>
+                            </SwipeView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+        </RefreshView>
     </ContentPage.Content>
 </ContentPage>

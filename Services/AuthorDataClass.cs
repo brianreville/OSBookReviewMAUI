@@ -55,7 +55,7 @@ namespace OSBookReviewMAUI.Services
             try
             {
                 //TODO Add Weblink
-                string weblink = "";
+                string weblink = "api/book/getauthors";
                 var response = await ApiHelper.GetList<Author>(weblink);
 
                 return response;

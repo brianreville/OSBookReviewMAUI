@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="OSBookReviewMAUI.Views.AboutPage"
+             xmlns:vm="clr-namespace:OSBookReviewMAUI.ViewModels"
+             BackgroundColor= "LightSkyBlue">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="Azure" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10" BackgroundColor="Azure">
+                <Label Text="RoomCare Manager App" FontSize="Title"/>
+                <Label Text="Please Select Options from Side Bar Menu" FontSize="16" Padding="0,0,0,0"/>
+                <Label Text="Verison 1.2" FontSize="16" Padding="0,0,0,0"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
+

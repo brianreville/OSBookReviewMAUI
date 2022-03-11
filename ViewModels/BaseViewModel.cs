@@ -1,4 +1,5 @@
-﻿using OSBookReviewMAUI.Models;
+﻿using OSBookReviewMAUI.Helpers;
+using OSBookReviewMAUI.Models;
 using OSBookReviewMAUI.Services;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -7,8 +8,11 @@ namespace OSBookReviewMAUI.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
+        // register Api singleton dependency
+        public IApiHelper ApiHelper => DependencyService.Get<ApiHelper>();
         // register dependency injection in base view model
         public IDataStore<Author> AuthorDataStore => DependencyService.Get<IDataStore<Author>>();
+
 
 
         bool _isBusy = false;

@@ -1,6 +1,12 @@
 ﻿using Newtonsoft.Json;
 using OSBookReviewMAUI.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace OSBookReviewMAUI.Helpers
 {
@@ -16,7 +22,8 @@ namespace OSBookReviewMAUI.Helpers
         // default initalisation of the Http Client
         private void InitializeClient()
         {
-            string api = Settings.WebUri;
+            // set a default if necessary
+            string api = Preferences.Get("WebUrl", "https://bookreview2022.azurewebsites.net/");
             ApiClient = new HttpClient
             {
                 BaseAddress = new Uri(api)
@@ -46,7 +53,7 @@ namespace OSBookReviewMAUI.Helpers
                 new KeyValuePair<string, string>("grant_type","password")
             });
 
-            using HttpResponseMessage response = await ApiClient.PostAsync("/Token/Login", data);
+            using HttpResponseMessage response = await ApiClient.PostAsync("/api/Token/Login", data);
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadAsAsync<List<Login>>();
@@ -64,6 +71,7 @@ namespace OSBookReviewMAUI.Helpers
             try
             {
                 var response = await ApiClient.GetStringAsync(url);
+                var result = response;
                 var res = JsonConvert.DeserializeObject<List<T>>(response);
                 return res;
             }
