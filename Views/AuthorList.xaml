@@ -11,7 +11,7 @@
                 <Label
                     Text="Top 50 Authors List"
                     FontSize="Header"
-                    TextColor="Black">                    
+                    TextColor="Black">
                 </Label>
                 <CollectionView x:Name="TopAuthorListView"
                         ItemsSource="{Binding Authors}"
@@ -19,35 +19,14 @@
                         BackgroundColor="{DynamicResource PrimaryColor}">
                     <CollectionView.ItemTemplate>
                         <DataTemplate>
-                            <SwipeView x:DataType="model:Author">
-                                <SwipeView.RightItems>
-                                    <SwipeItems Mode="Reveal">
-                                        <SwipeItem
-                                    Text="View Author's Books"
-                                    IconImageSource="edit_icon.png"
-                                    BackgroundColor="Green"
-                                    Command="{Binding Path=BindingContext.AuthorTapped, Source={x:Reference Name=AuthorList}}"
-                                    CommandParameter="{Binding}">
-                                        </SwipeItem>
-                                    </SwipeItems>
-                                </SwipeView.RightItems>
-                                <SwipeView.Content>
-                                    <StackLayout x:Name="Stack" Padding="10" x:DataType="model:Author">
-                                        <Label
+                            <StackLayout x:Name="Stack" Padding="10" x:DataType="model:Author">
+                                <Label
                                        Text="{Binding AuthorName, StringFormat='Author Name :{0}'}"
                                        LineBreakMode="NoWrap"
                                        FontSize="16"
                                        TextColor="Black">
-                                        </Label>
-                                        <Label
-                                       Text="{Binding AuthorBooks.Count, StringFormat='Number of Authored Books :{0}'}"
-                                       LineBreakMode="NoWrap"
-                                       FontSize="16"
-                                       TextColor="Black">
-                                        </Label>
-                                    </StackLayout>
-                                </SwipeView.Content>
-                            </SwipeView>
+                                </Label>
+                            </StackLayout>
                         </DataTemplate>
                     </CollectionView.ItemTemplate>
                 </CollectionView>

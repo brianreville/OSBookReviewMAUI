@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v6.0/win10-x64": {
       "OSBookReviewMAUI/1.0.0": {
         "dependencies": {
+          "CommunityToolkit.Mvvm": "7.1.2",
           "Dapper": "2.0.123",
           "Microsoft.AppCenter": "4.5.0",
           "Microsoft.AppCenter.Analytics": "4.5.0",
@@ -899,6 +900,14 @@
           }
         }
       },
+      "CommunityToolkit.Mvvm/7.1.2": {
+        "runtime": {
+          "lib/net5.0/CommunityToolkit.Mvvm.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.2.1"
+          }
+        }
+      },
       "Dapper/2.0.123": {
         "runtime": {
           "lib/net5.0/Dapper.dll": {
@@ -1470,6 +1479,13 @@
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
+    },
+    "CommunityToolkit.Mvvm/7.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zEpNH3FIBFY2iZRBi+S3Sia3q2yJgy1IQHnWRW7MdhQIe3IGcA1TGqJdbtjiJBmNy4v7kkPdNzgYlvvNDjXZg==",
+      "path": "communitytoolkit.mvvm/7.1.2",
+      "hashPath": "communitytoolkit.mvvm.7.1.2.nupkg.sha512"
     },
     "Dapper/2.0.123": {
       "type": "package",

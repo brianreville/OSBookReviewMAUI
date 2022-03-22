@@ -410,3 +410,4 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\qualifiers.txt.intermediate
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\ProjectArchitectures.txt
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\CommunityToolkit.Mvvm.dll

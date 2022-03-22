@@ -18,7 +18,6 @@ namespace OSBookReviewMAUI.Views
         {
             base.OnAppearing();
             _viewModel.OnAppearing();
-
         }
     }
 }

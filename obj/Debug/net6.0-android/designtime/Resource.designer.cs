@@ -14,7 +14,7 @@ namespace OSBookReviewMAUI
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.99.41")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.99.106")]
 	public partial class Resource
 	{
 		
@@ -39,44 +39,25 @@ namespace OSBookReviewMAUI
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Id.flyoutcontent_appbar = global::OSBookReviewMAUI.Resource.Id.flyoutcontent_appbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Id.main_tablayout = global::OSBookReviewMAUI.Resource.Id.main_tablayout;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Id.main_viewpager = global::OSBookReviewMAUI.Resource.Id.main_viewpager;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Id.maui_toolbar = global::OSBookReviewMAUI.Resource.Id.maui_toolbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Id.shellcontent_toolbar = global::OSBookReviewMAUI.Resource.Id.shellcontent_toolbar;
+			global::Microsoft.Maui.Controls.Compatibility.Resource.Id.shellcontent_appbar = global::OSBookReviewMAUI.Resource.Id.shellcontent_appbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.bottomtablayout = global::OSBookReviewMAUI.Resource.Layout.bottomtablayout;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.flyoutcontent = global::OSBookReviewMAUI.Resource.Layout.flyoutcontent;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.rootlayout = global::OSBookReviewMAUI.Resource.Layout.rootlayout;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.shellcontent = global::OSBookReviewMAUI.Resource.Layout.shellcontent;
-			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.shellrootlayout = global::OSBookReviewMAUI.Resource.Layout.shellrootlayout;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.tabbar = global::OSBookReviewMAUI.Resource.Layout.tabbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Layout.toolbar = global::OSBookReviewMAUI.Resource.Layout.toolbar;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.collectionViewTheme = global::OSBookReviewMAUI.Resource.Style.collectionViewTheme;
 			global::Microsoft.Maui.Controls.Compatibility.Resource.Style.scrollViewTheme = global::OSBookReviewMAUI.Resource.Style.scrollViewTheme;
-			global::Microsoft.Maui.Controls.Resource.Animation.enterfromleft = global::OSBookReviewMAUI.Resource.Animation.enterfromleft;
-			global::Microsoft.Maui.Controls.Resource.Animation.enterfromright = global::OSBookReviewMAUI.Resource.Animation.enterfromright;
-			global::Microsoft.Maui.Controls.Resource.Animation.exittoleft = global::OSBookReviewMAUI.Resource.Animation.exittoleft;
-			global::Microsoft.Maui.Controls.Resource.Animation.exittoright = global::OSBookReviewMAUI.Resource.Animation.exittoright;
 			global::Microsoft.Maui.Controls.Resource.Attribute.actionBarSize = global::OSBookReviewMAUI.Resource.Attribute.actionBarSize;
 			global::Microsoft.Maui.Controls.Resource.Attribute.toolbarStyle = global::OSBookReviewMAUI.Resource.Attribute.toolbarStyle;
 			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_clear_material = global::OSBookReviewMAUI.Resource.Drawable.abc_ic_clear_material;
 			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_menu_overflow_material = global::OSBookReviewMAUI.Resource.Drawable.abc_ic_menu_overflow_material;
 			global::Microsoft.Maui.Controls.Resource.Drawable.abc_ic_search_api_material = global::OSBookReviewMAUI.Resource.Drawable.abc_ic_search_api_material;
-			global::Microsoft.Maui.Controls.Resource.Id.appbar = global::OSBookReviewMAUI.Resource.Id.appbar;
-			global::Microsoft.Maui.Controls.Resource.Id.bottomtab_navarea = global::OSBookReviewMAUI.Resource.Id.bottomtab_navarea;
-			global::Microsoft.Maui.Controls.Resource.Id.bottomtab_tabbar = global::OSBookReviewMAUI.Resource.Id.bottomtab_tabbar;
 			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_bottomtabs = global::OSBookReviewMAUI.Resource.Id.navigationlayout_bottomtabs;
 			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_content = global::OSBookReviewMAUI.Resource.Id.navigationlayout_content;
-			global::Microsoft.Maui.Controls.Resource.Id.flyoutcontent_appbar = global::OSBookReviewMAUI.Resource.Id.flyoutcontent_appbar;
-			global::Microsoft.Maui.Controls.Resource.Id.main_tablayout = global::OSBookReviewMAUI.Resource.Id.main_tablayout;
-			global::Microsoft.Maui.Controls.Resource.Id.main_viewpager = global::OSBookReviewMAUI.Resource.Id.main_viewpager;
-			global::Microsoft.Maui.Controls.Resource.Id.maui_toolbar = global::OSBookReviewMAUI.Resource.Id.maui_toolbar;
-			global::Microsoft.Maui.Controls.Resource.Id.shellcontent_appbar = global::OSBookReviewMAUI.Resource.Id.shellcontent_appbar;
-			global::Microsoft.Maui.Controls.Resource.Id.shellcontent_toolbar = global::OSBookReviewMAUI.Resource.Id.shellcontent_toolbar;
 			global::Microsoft.Maui.Controls.Resource.Id.navigationlayout_toptabs = global::OSBookReviewMAUI.Resource.Id.navigationlayout_toptabs;
-			global::Microsoft.Maui.Controls.Resource.Layout.bottomtablayout = global::OSBookReviewMAUI.Resource.Layout.bottomtablayout;
-			global::Microsoft.Maui.Controls.Resource.Layout.maui_toolbar = global::OSBookReviewMAUI.Resource.Layout.maui_toolbar;
 			global::Microsoft.Maui.Controls.Resource.Layout.fragment_backstack = global::OSBookReviewMAUI.Resource.Layout.fragment_backstack;
-			global::Microsoft.Maui.Controls.Resource.Layout.flyoutcontent = global::OSBookReviewMAUI.Resource.Layout.flyoutcontent;
-			global::Microsoft.Maui.Controls.Resource.Layout.shellcontent = global::OSBookReviewMAUI.Resource.Layout.shellcontent;
-			global::Microsoft.Maui.Controls.Resource.Layout.shellrootlayout = global::OSBookReviewMAUI.Resource.Layout.shellrootlayout;
 			global::Microsoft.Maui.Controls.Resource.Dimension.design_bottom_navigation_height = global::OSBookReviewMAUI.Resource.Dimension.design_bottom_navigation_height;
 			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar = global::OSBookReviewMAUI.Resource.Styleable.Toolbar;
 			global::Microsoft.Maui.Controls.Resource.Styleable.Toolbar_titleTextColor = global::OSBookReviewMAUI.Resource.Styleable.Toolbar_titleTextColor;

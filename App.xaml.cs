@@ -21,10 +21,9 @@ public partial class App : Application
 
         // register the various viewmodel dependencies
         DependencyService.Register<AuthorDataClass>();
+        DependencyService.Register<BookDataClass>();
 
         // set the inital page
-        // TODO: Login Page To Be Done and then switched from App Shell for secure login in
-        // TODO: App Shell Tab and FlyOut Xaml to be added including pages
         MainPage = new LoginPage();
     }
 }

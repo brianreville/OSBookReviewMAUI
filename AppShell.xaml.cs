@@ -16,7 +16,8 @@ namespace OSBookReviewMAUI
             // Register routes for the shell
             Routing.RegisterRoute(nameof(LoginPage), typeof(LoginPage));
             Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
-            Routing.RegisterRoute(nameof(AuthorList), typeof(AuthorList));
+            Routing.RegisterRoute(nameof(AuthorPage), typeof(AuthorPage));
+            Routing.RegisterRoute(nameof(AuthorBooks), typeof(AuthorBooks));
         }
 
         // for login form

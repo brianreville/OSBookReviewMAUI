@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-03-08T12:50:36.167</Modified>
+      <Modified>2022-03-13T21:04:06.902</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-03-08T12:50:34.533</Modified>
+      <Modified>2022-03-13T21:03:57.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.runtimeconfig.json">
       <PackagePath>OSBookReviewMAUI.runtimeconfig.json</PackagePath>
-      <Modified>2022-03-07T21:38:23.820</Modified>
+      <Modified>2022-03-13T13:16:35.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.dll">
       <PackagePath>OSBookReviewMAUI.dll</PackagePath>
-      <Modified>2022-03-08T12:50:30.171</Modified>
+      <Modified>2022-03-13T21:03:33.174</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\apphost.exe">
       <PackagePath>OSBookReviewMAUI.exe</PackagePath>
-      <Modified>2022-03-08T12:50:30.232</Modified>
+      <Modified>2022-03-13T21:03:33.533</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.deps.json">
       <PackagePath>OSBookReviewMAUI.deps.json</PackagePath>
-      <Modified>2022-03-08T11:31:02.218</Modified>
+      <Modified>2022-03-13T21:03:54.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.2\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -953,6 +953,10 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2021-11-17T10:43:46.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\revil\.nuget\packages\communitytoolkit.mvvm\7.1.2\lib\net5.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+      <Modified>2021-11-18T21:56:30.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\.nuget\packages\dapper\2.0.123\lib\net5.0\Dapper.dll">
       <PackagePath>Dapper.dll</PackagePath>
       <Modified>2021-11-03T14:07:40.000</Modified>
@@ -1179,7 +1183,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xbf">
       <PackagePath>Platforms\Windows\App.xbf</PackagePath>
-      <Modified>2022-03-08T12:50:29.009</Modified>
+      <Modified>2022-03-13T21:03:27.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -1187,23 +1191,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:56.432</Modified>
+      <Modified>2022-03-13T13:16:03.801</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-125.png">
       <PackagePath>appiconfgSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:56.484</Modified>
+      <Modified>2022-03-13T13:16:03.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-150.png">
       <PackagePath>appiconfgSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:56.554</Modified>
+      <Modified>2022-03-13T13:16:03.994</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-200.png">
       <PackagePath>appiconfgSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:56.661</Modified>
+      <Modified>2022-03-13T13:16:04.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-400.png">
       <PackagePath>appiconfgSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.091</Modified>
+      <Modified>2022-03-13T13:16:04.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1211,143 +1215,143 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.061</Modified>
+      <Modified>2022-03-13T13:16:05.286</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.104</Modified>
+      <Modified>2022-03-13T13:16:05.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.145</Modified>
+      <Modified>2022-03-13T13:16:05.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.205</Modified>
+      <Modified>2022-03-13T13:16:05.405</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.431</Modified>
+      <Modified>2022-03-13T13:16:05.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.312</Modified>
+      <Modified>2022-03-13T13:16:04.575</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.333</Modified>
+      <Modified>2022-03-13T13:16:04.585</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.346</Modified>
+      <Modified>2022-03-13T13:16:04.642</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.370</Modified>
+      <Modified>2022-03-13T13:16:04.654</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.408</Modified>
+      <Modified>2022-03-13T13:16:04.672</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.666</Modified>
+      <Modified>2022-03-13T13:16:04.849</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.682</Modified>
+      <Modified>2022-03-13T13:16:04.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.707</Modified>
+      <Modified>2022-03-13T13:16:04.893</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.737</Modified>
+      <Modified>2022-03-13T13:16:04.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.792</Modified>
+      <Modified>2022-03-13T13:16:04.997</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.532</Modified>
+      <Modified>2022-03-13T13:16:04.746</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.551</Modified>
+      <Modified>2022-03-13T13:16:04.757</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.568</Modified>
+      <Modified>2022-03-13T13:16:04.766</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.591</Modified>
+      <Modified>2022-03-13T13:16:04.815</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.644</Modified>
+      <Modified>2022-03-13T13:16:04.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.427</Modified>
+      <Modified>2022-03-13T13:16:04.682</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.448</Modified>
+      <Modified>2022-03-13T13:16:04.691</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.462</Modified>
+      <Modified>2022-03-13T13:16:04.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.489</Modified>
+      <Modified>2022-03-13T13:16:04.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.514</Modified>
+      <Modified>2022-03-13T13:16:04.737</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.810</Modified>
+      <Modified>2022-03-13T13:16:05.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.840</Modified>
+      <Modified>2022-03-13T13:16:05.037</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.868</Modified>
+      <Modified>2022-03-13T13:16:05.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.908</Modified>
+      <Modified>2022-03-13T13:16:05.101</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.025</Modified>
+      <Modified>2022-03-13T13:16:05.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.553</Modified>
+      <Modified>2022-03-13T13:16:04.699</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.663</Modified>
+      <Modified>2022-03-13T13:16:04.798</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.806</Modified>
+      <Modified>2022-03-13T13:16:04.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-03-07T20:35:57.999</Modified>
+      <Modified>2022-03-13T13:16:05.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-03-07T20:35:58.697</Modified>
+      <Modified>2022-03-13T13:16:05.715</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.200-preview.13.2865\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -2,7 +2,7 @@ is_global = true
 build_property.TargetFramework = net6.0-windows10.0.19041
 build_property.TargetPlatformMinVersion = 10.0.17763.0
 build_property.UsingMicrosoftNETSdkWeb = 
-build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
@@ -33,11 +33,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.Abo
 build_metadata.AdditionalFiles.TargetPath = Views\AboutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AboutPage.xaml
 
+[C:/Users/revil/OneDrive/VS Back Up/Visual Studio 2015/OSBookReviewMAUI/Views/AuthorBooks.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.AuthorBooks.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AuthorBooks.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AuthorBooks.xaml
+
 [C:/Users/revil/OneDrive/VS Back Up/Visual Studio 2015/OSBookReviewMAUI/Views/AuthorList.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.AuthorList.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\AuthorList.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AuthorList.xaml
+
+[C:/Users/revil/OneDrive/VS Back Up/Visual Studio 2015/OSBookReviewMAUI/Views/AuthorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.AuthorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AuthorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AuthorPage.xaml
 
 [C:/Users/revil/OneDrive/VS Back Up/Visual Studio 2015/OSBookReviewMAUI/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

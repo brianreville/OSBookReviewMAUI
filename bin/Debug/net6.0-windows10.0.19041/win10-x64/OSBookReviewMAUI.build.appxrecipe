@@ -715,6 +715,9 @@
     <AppxPackagedFile Include="C:\Users\revil\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.22\lib\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\revil\.nuget\packages\communitytoolkit.mvvm\7.1.2\lib\net5.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\revil\.nuget\packages\dapper\2.0.123\lib\net5.0\Dapper.dll">
       <PackagePath>Dapper.dll</PackagePath>
     </AppxPackagedFile>

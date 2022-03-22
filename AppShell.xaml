@@ -11,13 +11,13 @@
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{DynamicResource Primary}" />
                 <Setter Property="Shell.ForegroundColor" Value="{DynamicResource Primary}"/>
-                <Setter Property="Shell.TitleColor" Value="Azure" />
-                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <Setter Property="Shell.TitleColor" Value="BlueViolet" />
+                <Setter Property="Shell.DisabledColor" Value="BlueViolet" />
+                <Setter Property="Shell.UnselectedColor" Value="BlueViolet" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource Primary}" />
-                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.TabBarForegroundColor" Value="BlueViolet"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="BlueViolet"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="BlueViolet"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -27,7 +27,7 @@
             https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
             -->
             <Style Class="FlyoutItemLabelStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="Azure"></Setter>
+                <Setter Property="TextColor" Value="Black"></Setter>
             </Style>
             <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
                 <Setter Property="VisualStateManager.VisualStateGroups">
@@ -35,7 +35,7 @@
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP={DynamicResource Primary}, iOS=White}" />
+                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP={DynamicResource Primary}, iOS={DynamicResource Primary}}" />
                                     <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{DynamicResource Secondary}" />
                                 </VisualState.Setters>
                             </VisualState>
@@ -70,7 +70,7 @@
     
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="About" Route="AboutPage" ContentTemplate="{DataTemplate Pages:AboutPage}" />
-        <ShellContent Title="Top 50 Authors" Route="AuthorList" ContentTemplate="{DataTemplate Pages:AuthorList}" />
+        <ShellContent Title="Author Page" Route="Author Page" ContentTemplate="{DataTemplate Pages:AuthorPage}" />
     </FlyoutItem>
     <!-- Add Logout Option to Flyout Men -->
     <MenuItem 

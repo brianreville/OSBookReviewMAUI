@@ -13,8 +13,6 @@ namespace OSBookReviewMAUI.ViewModels
         // register dependency injection in base view model
         public IDataStore<Author> AuthorDataStore => DependencyService.Get<IDataStore<Author>>();
 
-
-
         bool _isBusy = false;
         public bool IsBusy
         {

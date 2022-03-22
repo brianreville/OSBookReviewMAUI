@@ -3,6 +3,7 @@ using OSBookReviewMAUI.Helpers;
 using OSBookReviewMAUI.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,29 +12,29 @@ namespace OSBookReviewMAUI.Services
 {
     public class AuthorDataClass : IDataStore<Author>
     {
-        private List<Author> _data;
         public IApiHelper ApiHelper => DependencyService.Get<ApiHelper>();
         public AuthorDataClass()
         {
-            _data = new List<Author>();
+
         }
 
-        // for getting the list of all residents in a venue
-        // TODO: TIDY UP RETURN TYPE TO SINGLE LINE ONCE DEBUGGING COMPLETED
         public async Task<IEnumerable<Author>> GetListAsync()
         {
-            _data = await GetAuthors();
-            return _data;
+            return await GetAuthors();
+        }
+        // returns  a list of authors by name
+        public async Task<IEnumerable<Author>> GetListAsync(string name)
+        {
+            return await GetAuthorsByName(name);
         }
 
         // get the list of auhtors with the criteria of a name serach
         // in the event of error return an empty list
-        private async Task<List<Author>> GetAuthorsByName()
+        private async Task<List<Author>> GetAuthorsByName(string name)
         {
             try
             {
-                //TODO Add Weblink
-                string weblink = "";
+                string weblink = "api/book/GetAuthorByName?name=";
 
                 var response = await ApiHelper.GetList<Author>(weblink);
 
@@ -54,8 +55,8 @@ namespace OSBookReviewMAUI.Services
         {
             try
             {
-                //TODO Add Weblink
-                string weblink = "api/book/getauthors";
+
+                string weblink = "/api/book/getauthors";
                 var response = await ApiHelper.GetList<Author>(weblink);
 
                 return response;
@@ -63,7 +64,7 @@ namespace OSBookReviewMAUI.Services
             }
             catch (Exception ex)
             {
-                Crashes.TrackError(ex);
+                Debug.WriteLine(ex);
 
                 List<Author> res = new();
 

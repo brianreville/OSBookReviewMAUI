@@ -27,11 +27,11 @@ namespace OSBookReviewMAUI.ViewModels
             try
             {
                 Authors.Clear();
-                var authors = await AuthorDataStore.GetListAsync();
-                foreach (var Author in authors)
-                {
-                    Authors.Add(Author);
-                }
+                //var authors = await AuthorDataStore.GetListAsync();
+                //foreach (var Author in authors)
+                //{
+                //    Authors.Add(Author);
+                //}
             }
             catch (Exception ex)
             {

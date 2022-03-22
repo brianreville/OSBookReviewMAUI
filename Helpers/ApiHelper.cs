@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.AppCenter.Crashes;
+using Newtonsoft.Json;
 using OSBookReviewMAUI.Models;
 using System;
 using System.Collections.Generic;
@@ -68,18 +69,31 @@ namespace OSBookReviewMAUI.Helpers
         // returns a list of objects of Type T in event of error returns an empty list
         public async Task<List<T>> GetList<T>(string url)
         {
+
             try
             {
-                var response = await ApiClient.GetStringAsync(url);
-                var result = response;
-                var res = JsonConvert.DeserializeObject<List<T>>(response);
-                return res;
+                HttpResponseMessage response = await ApiClient.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    var res = JsonConvert.DeserializeObject<List<T>>(result);
+                    return res;
+                }
+                else
+                {
+                    var res = new List<T>();
+                    return res;
+                }
             }
-            catch (Exception)
+            catch (HttpRequestException ex)
             {
+                Crashes.TrackError(ex);
                 var res = new List<T>();
                 return res;
             }
+
         }
         // complets a put http request
         public async Task<HttpResponseMessage> PutRequest(string url, HttpContent data)
