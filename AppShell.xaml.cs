@@ -18,6 +18,7 @@ namespace OSBookReviewMAUI
             Routing.RegisterRoute(nameof(AboutPage), typeof(AboutPage));
             Routing.RegisterRoute(nameof(AuthorPage), typeof(AuthorPage));
             Routing.RegisterRoute(nameof(AuthorBooks), typeof(AuthorBooks));
+            Routing.RegisterRoute(nameof(AuthorList), typeof(AuthorList));
         }
 
         // for login form

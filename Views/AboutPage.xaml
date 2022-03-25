@@ -9,10 +9,10 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="BlueViolet" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+        <StackLayout BackgroundColor="Azure" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
         </StackLayout>
         <ScrollView Grid.Row="1">
-            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10" BackgroundColor="BlueViolet">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10" BackgroundColor="Azure">
                 <Label Text="Book Review Application" FontSize="Title" TextColor="Black"/>
                 <Label Text="Please Select Options from Side Bar Menu" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>
                 <Label Text="Verison 1.0" FontSize="16" Padding="0,0,0,0" TextColor="Black"/>

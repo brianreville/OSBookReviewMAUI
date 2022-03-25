@@ -10,14 +10,14 @@
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{DynamicResource Primary}" />
-                <Setter Property="Shell.ForegroundColor" Value="{DynamicResource Primary}"/>
-                <Setter Property="Shell.TitleColor" Value="BlueViolet" />
-                <Setter Property="Shell.DisabledColor" Value="BlueViolet" />
-                <Setter Property="Shell.UnselectedColor" Value="BlueViolet" />
-                <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource Primary}" />
-                <Setter Property="Shell.TabBarForegroundColor" Value="BlueViolet"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="BlueViolet"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="BlueViolet"/>
+                <Setter Property="Shell.ForegroundColor" Value="Black" />
+                <Setter Property="Shell.TitleColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="Shell.DisabledColor" Value="{DynamicResource SecondaryColor}" />
+                <Setter Property="Shell.UnselectedColor" Value="{DynamicResource SecondaryColor}" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{DynamicResource PrimaryColor}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{DynamicResource PrimaryColor}"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
@@ -69,8 +69,8 @@
    </Shell.Resources>   
     
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="About" Route="AboutPage" ContentTemplate="{DataTemplate Pages:AboutPage}" />
-        <ShellContent Title="Author Page" Route="Author Page" ContentTemplate="{DataTemplate Pages:AuthorPage}" />
+        <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate Pages:AboutPage}" />
+        <ShellContent Title="Author List" Icon="tab_feed.png" Route="AuthorList" ContentTemplate="{DataTemplate Pages:AuthorList}" />
     </FlyoutItem>
     <!-- Add Logout Option to Flyout Men -->
     <MenuItem 

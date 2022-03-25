@@ -224,75 +224,71 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[33];
+            _typeNameTable = new string[31];
             _typeNameTable[0] = "Microsoft.Maui.MauiWinUIApplication";
             _typeNameTable[1] = "Microsoft.UI.Xaml.Application";
             _typeNameTable[2] = "Microsoft.UI.Xaml.LaunchActivatedEventArgs";
             _typeNameTable[3] = "System.IServiceProvider";
             _typeNameTable[4] = "Microsoft.Maui.IApplication";
-            _typeNameTable[5] = "Microsoft.Maui.Controls.Platform.ShellSectionView";
-            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.NavigationView";
-            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.ContentControl";
-            _typeNameTable[8] = "Boolean";
-            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[10] = "Double";
-            _typeNameTable[11] = "Microsoft.UI.Xaml.UIElement";
-            _typeNameTable[12] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
-            _typeNameTable[13] = "System.Enum";
-            _typeNameTable[14] = "System.ValueType";
-            _typeNameTable[15] = "Object";
-            _typeNameTable[16] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[17] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
-            _typeNameTable[19] = "Microsoft.UI.Xaml.Style";
-            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.StyleSelector";
-            _typeNameTable[21] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
-            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
-            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
-            _typeNameTable[24] = "String";
-            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
-            _typeNameTable[26] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
-            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
-            _typeNameTable[28] = "Microsoft.UI.Xaml.DependencyObject";
-            _typeNameTable[29] = "Microsoft.Maui.Controls.Platform.ShellView";
-            _typeNameTable[30] = "Microsoft.UI.Xaml.Media.Brush";
-            _typeNameTable[31] = "Microsoft.Maui.Platform.MauiNavigationView";
-            _typeNameTable[32] = "Microsoft.Maui.Platform.RootNavigationView";
+            _typeNameTable[5] = "Microsoft.Maui.Controls.Platform.ShellView";
+            _typeNameTable[6] = "Microsoft.Maui.Platform.RootNavigationView";
+            _typeNameTable[7] = "Microsoft.Maui.Platform.MauiNavigationView";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.NavigationView";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[10] = "Boolean";
+            _typeNameTable[11] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[12] = "Double";
+            _typeNameTable[13] = "Microsoft.UI.Xaml.UIElement";
+            _typeNameTable[14] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[15] = "System.Enum";
+            _typeNameTable[16] = "System.ValueType";
+            _typeNameTable[17] = "Object";
+            _typeNameTable[18] = "System.Collections.Generic.IList`1<Object>";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[20] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
+            _typeNameTable[21] = "Microsoft.UI.Xaml.Style";
+            _typeNameTable[22] = "Microsoft.UI.Xaml.Controls.StyleSelector";
+            _typeNameTable[23] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[24] = "Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode";
+            _typeNameTable[25] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
+            _typeNameTable[26] = "String";
+            _typeNameTable[27] = "Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus";
+            _typeNameTable[28] = "Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled";
+            _typeNameTable[29] = "Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings";
+            _typeNameTable[30] = "Microsoft.UI.Xaml.DependencyObject";
 
-            _typeTable = new global::System.Type[33];
+            _typeTable = new global::System.Type[31];
             _typeTable[0] = typeof(global::Microsoft.Maui.MauiWinUIApplication);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.Application);
             _typeTable[2] = typeof(global::Microsoft.UI.Xaml.LaunchActivatedEventArgs);
             _typeTable[3] = typeof(global::System.IServiceProvider);
             _typeTable[4] = typeof(global::Microsoft.Maui.IApplication);
-            _typeTable[5] = typeof(global::Microsoft.Maui.Controls.Platform.ShellSectionView);
-            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
-            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
-            _typeTable[8] = typeof(global::System.Boolean);
-            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[10] = typeof(global::System.Double);
-            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.UIElement);
-            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
-            _typeTable[13] = typeof(global::System.Enum);
-            _typeTable[14] = typeof(global::System.ValueType);
-            _typeTable[15] = typeof(global::System.Object);
-            _typeTable[16] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
-            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.Style);
-            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
-            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
-            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
-            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
-            _typeTable[24] = typeof(global::System.String);
-            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
-            _typeTable[26] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
-            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
-            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
-            _typeTable[29] = typeof(global::Microsoft.Maui.Controls.Platform.ShellView);
-            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.Media.Brush);
-            _typeTable[31] = typeof(global::Microsoft.Maui.Platform.MauiNavigationView);
-            _typeTable[32] = typeof(global::Microsoft.Maui.Platform.RootNavigationView);
+            _typeTable[5] = typeof(global::Microsoft.Maui.Controls.Platform.ShellView);
+            _typeTable[6] = typeof(global::Microsoft.Maui.Platform.RootNavigationView);
+            _typeTable[7] = typeof(global::Microsoft.Maui.Platform.MauiNavigationView);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationView);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[10] = typeof(global::System.Boolean);
+            _typeTable[11] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[12] = typeof(global::System.Double);
+            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.UIElement);
+            _typeTable[14] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[15] = typeof(global::System.Enum);
+            _typeTable[16] = typeof(global::System.ValueType);
+            _typeTable[17] = typeof(global::System.Object);
+            _typeTable[18] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[20] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
+            _typeTable[21] = typeof(global::Microsoft.UI.Xaml.Style);
+            _typeTable[22] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
+            _typeTable[23] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[24] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode);
+            _typeTable[25] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
+            _typeTable[26] = typeof(global::System.String);
+            _typeTable[27] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus);
+            _typeTable[28] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled);
+            _typeTable[29] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings);
+            _typeTable[30] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -327,13 +323,12 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_5_ShellSectionView() { return new global::Microsoft.Maui.Controls.Platform.ShellSectionView(); }
-        private object Activate_6_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
-        private object Activate_27_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
-        private object Activate_29_ShellView() { return new global::Microsoft.Maui.Controls.Platform.ShellView(); }
-        private object Activate_31_MauiNavigationView() { return new global::Microsoft.Maui.Platform.MauiNavigationView(); }
-        private object Activate_32_RootNavigationView() { return new global::Microsoft.Maui.Platform.RootNavigationView(); }
-        private void VectorAdd_16_IList(object instance, object item)
+        private object Activate_5_ShellView() { return new global::Microsoft.Maui.Controls.Platform.ShellView(); }
+        private object Activate_6_RootNavigationView() { return new global::Microsoft.Maui.Platform.RootNavigationView(); }
+        private object Activate_7_MauiNavigationView() { return new global::Microsoft.Maui.Platform.MauiNavigationView(); }
+        private object Activate_8_NavigationView() { return new global::Microsoft.UI.Xaml.Controls.NavigationView(); }
+        private object Activate_29_NavigationViewTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings(); }
+        private void VectorAdd_18_IList(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::System.Object>)instance;
             var newItem = (global::System.Object)item;
@@ -378,16 +373,30 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 5:   //  Microsoft.Maui.Controls.Platform.ShellSectionView
-                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
-                userType.Activator = Activate_5_ShellSectionView;
+            case 5:   //  Microsoft.Maui.Controls.Platform.ShellView
+                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Platform.RootNavigationView"));
+                userType.Activator = Activate_5_ShellView;
                 userType.SetIsBindable();
                 xamlType = userType;
                 break;
 
-            case 6:   //  Microsoft.UI.Xaml.Controls.NavigationView
+            case 6:   //  Microsoft.Maui.Platform.RootNavigationView
+                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Platform.MauiNavigationView"));
+                userType.Activator = Activate_6_RootNavigationView;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 7:   //  Microsoft.Maui.Platform.MauiNavigationView
+                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
+                userType.Activator = Activate_7_MauiNavigationView;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Microsoft.UI.Xaml.Controls.NavigationView
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ContentControl"));
-                userType.Activator = Activate_6_NavigationView;
+                userType.Activator = Activate_8_NavigationView;
                 userType.AddMemberName("AlwaysShowHeader");
                 userType.AddMemberName("AutoSuggestBox");
                 userType.AddMemberName("CompactModeThresholdWidth");
@@ -428,27 +437,27 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 7:   //  Microsoft.UI.Xaml.Controls.ContentControl
+            case 9:   //  Microsoft.UI.Xaml.Controls.ContentControl
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Boolean
+            case 10:   //  Boolean
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
+            case 11:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  Double
+            case 12:   //  Double
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 11:   //  Microsoft.UI.Xaml.UIElement
+            case 13:   //  Microsoft.UI.Xaml.UIElement
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 14:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
@@ -456,32 +465,32 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 13:   //  System.Enum
+            case 15:   //  System.Enum
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 14:   //  System.ValueType
+            case 16:   //  System.ValueType
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 15:   //  Object
+            case 17:   //  Object
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 16:   //  System.Collections.Generic.IList`1<Object>
+            case 18:   //  System.Collections.Generic.IList`1<Object>
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.CollectionAdd = VectorAdd_16_IList;
+                userType.CollectionAdd = VectorAdd_18_IList;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 17:   //  Microsoft.UI.Xaml.DataTemplate
+            case 19:   //  Microsoft.UI.Xaml.DataTemplate
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 18:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+            case 20:   //  Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Collapsed", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Collapsed);
                 userType.AddEnumValue("Visible", global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible.Visible);
@@ -489,26 +498,26 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 19:   //  Microsoft.UI.Xaml.Style
+            case 21:   //  Microsoft.UI.Xaml.Style
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 20:   //  Microsoft.UI.Xaml.Controls.StyleSelector
+            case 22:   //  Microsoft.UI.Xaml.Controls.StyleSelector
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 21:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+            case 23:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 22:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+            case 24:   //  Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("MoreLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.MoreLabel);
                 userType.AddEnumValue("NoLabel", global::Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode.NoLabel);
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+            case 25:   //  Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Auto", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Auto);
                 userType.AddEnumValue("Left", global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode.Left);
@@ -518,18 +527,18 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 24:   //  String
+            case 26:   //  String
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 25:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+            case 27:   //  Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Disabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Disabled);
                 userType.AddEnumValue("Enabled", global::Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus.Enabled);
                 xamlType = userType;
                 break;
 
-            case 26:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+            case 28:   //  Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("WhenSelectionFollowsFocus", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.WhenSelectionFollowsFocus);
                 userType.AddEnumValue("Always", global::Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled.Always);
@@ -537,40 +546,14 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 27:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+            case 29:   //  Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
                 userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 28:   //  Microsoft.UI.Xaml.DependencyObject
+            case 30:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 29:   //  Microsoft.Maui.Controls.Platform.ShellView
-                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
-                userType.Activator = Activate_29_ShellView;
-                userType.AddMemberName("FlyoutBackgroundColor");
-                userType.SetIsBindable();
-                xamlType = userType;
-                break;
-
-            case 30:   //  Microsoft.UI.Xaml.Media.Brush
-                xamlType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 31:   //  Microsoft.Maui.Platform.MauiNavigationView
-                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView"));
-                userType.Activator = Activate_31_MauiNavigationView;
-                userType.SetIsBindable();
-                xamlType = userType;
-                break;
-
-            case 32:   //  Microsoft.Maui.Platform.RootNavigationView
-                userType = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Maui.Platform.MauiNavigationView"));
-                userType.Activator = Activate_32_RootNavigationView;
-                userType.SetIsBindable();
-                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -997,16 +980,6 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.TemplateSettings;
         }
-        private object get_40_ShellView_FlyoutBackgroundColor(object instance)
-        {
-            var that = (global::Microsoft.Maui.Controls.Platform.ShellView)instance;
-            return that.FlyoutBackgroundColor;
-        }
-        private void set_40_ShellView_FlyoutBackgroundColor(object instance, object Value)
-        {
-            var that = (global::Microsoft.Maui.Controls.Platform.ShellView)instance;
-            that.FlyoutBackgroundColor = (global::Microsoft.UI.Xaml.Media.Brush)Value;
-        }
 
         private global::Microsoft.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -1291,13 +1264,6 @@ namespace OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo
                 xamlMember.SetIsDependencyProperty();
                 xamlMember.Getter = get_39_NavigationView_TemplateSettings;
                 xamlMember.SetIsReadOnly();
-                break;
-            case "Microsoft.Maui.Controls.Platform.ShellView.FlyoutBackgroundColor":
-                userType = (global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Maui.Controls.Platform.ShellView");
-                xamlMember = new global::OSBookReviewMAUI.OSBookReviewMAUI_XamlTypeInfo.XamlMember(this, "FlyoutBackgroundColor", "Microsoft.UI.Xaml.Media.Brush");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_40_ShellView_FlyoutBackgroundColor;
-                xamlMember.Setter = set_40_ShellView_FlyoutBackgroundColor;
                 break;
             }
             return xamlMember;

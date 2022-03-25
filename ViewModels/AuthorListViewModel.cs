@@ -1,5 +1,6 @@
 ﻿using Microsoft.AppCenter.Crashes;
 using OSBookReviewMAUI.Models;
+using OSBookReviewMAUI.Views;
 using System.Collections.ObjectModel;
 
 namespace OSBookReviewMAUI.ViewModels
@@ -10,14 +11,14 @@ namespace OSBookReviewMAUI.ViewModels
 
         public ObservableCollection<Author> Authors { get; }
         public Command LoadAuthorsCommand { get; }
-        // public Command<Author> AuthorTapped { get; }
+        public Command<Author> AuthorTapped { get; }
 
         public AuthorListViewModel()
         {
             Authors = new ObservableCollection<Author>();
             LoadAuthorsCommand = new Command(async () => await ExecuteLoadAuthorsCommand());
 
-            //AuthorTapped = new Command<Author>(OnAuthorSelected);
+            AuthorTapped = new Command<Author>(OnAuthorSelected);
         }
 
         private async Task ExecuteLoadAuthorsCommand()
@@ -27,11 +28,11 @@ namespace OSBookReviewMAUI.ViewModels
             try
             {
                 Authors.Clear();
-                //var authors = await AuthorDataStore.GetListAsync();
-                //foreach (var Author in authors)
-                //{
-                //    Authors.Add(Author);
-                //}
+                var authors = await AuthorDataStore.GetListAsync();
+                foreach (var Author in authors)
+                {
+                    Authors.Add(Author);
+                }
             }
             catch (Exception ex)
             {
@@ -65,12 +66,11 @@ namespace OSBookReviewMAUI.ViewModels
                 return;
             else
             {
-                return;
+                // This will push the AuthorDetailPage onto the navigation stack
+                await Shell.Current.GoToAsync($"{nameof(AuthorBooks)}?{nameof(AuthorBookViewModel.AID)}={author.AID}");
             }
 
-            //TODO: Create Author Detail Page
-            // This will push the AuthorDetailPage onto the navigation stack
-            // await Shell.Current.GoToAsync($"{nameof(AuthorDetailPage)}?{nameof(AuthorDetailViewModel.AuthorID)}={author.AID}");
+
         }
     }
 }

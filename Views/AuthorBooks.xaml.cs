@@ -18,5 +18,10 @@ namespace OSBookReviewMAUI.Views
 
             this.BindingContext = _viewModel = new AuthorBookViewModel();
         }
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            _viewModel.OnAppearing();
+        }
     }
 }

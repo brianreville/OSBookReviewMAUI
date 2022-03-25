@@ -8,5 +8,7 @@ namespace OSBookReviewMAUI.Services
         IApiHelper ApiHelper { get; }
 
         Task<IEnumerable<T>> GetListAsync();
+        Task<IEnumerable<T>> GetListAsync(int AID);
+        Task<IEnumerable<T>> GetListAsync(string authorname);
     }
 }

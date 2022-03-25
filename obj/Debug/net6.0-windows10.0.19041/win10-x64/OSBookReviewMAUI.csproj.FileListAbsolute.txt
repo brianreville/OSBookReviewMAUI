@@ -1,11 +1,3 @@
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.csproj.AssemblyReference.cache
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.g.i.cs
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.g.cs
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\XamlTypeInfo.g.cs
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xaml
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xbf
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\XamlSaveStateFile.xml
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xbf
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\AboutAssets.txt
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\appiconfgSplashScreen.scale-100.png
@@ -57,6 +49,7 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\resources.pri
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\AppxManifest.xml
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\Microsoft.Graphics.Canvas.dll
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\CommunityToolkit.Mvvm.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\Dapper.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\Microsoft.AppCenter.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\Microsoft.AppCenter.Analytics.dll
@@ -94,10 +87,8 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.CodeDom.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Configuration.ConfigurationManager.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Data.SqlClient.dll
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Drawing.Common.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Management.dll
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Security.Cryptography.ProtectedData.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Security.Permissions.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Windows.Extensions.dll
@@ -137,6 +128,7 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Data.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.Contracts.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.Debug.dll
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.DiagnosticSource.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.FileVersionInfo.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.Process.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Diagnostics.StackTrace.dll
@@ -210,6 +202,7 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Resources.Reader.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Resources.ResourceManager.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Resources.Writer.dll
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Runtime.CompilerServices.Unsafe.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Runtime.CompilerServices.VisualC.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Runtime.Extensions.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\System.Runtime.Handles.dll
@@ -337,6 +330,14 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\ucrtbase.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\Microsoft.Windows.SDK.NET.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\WinRT.Runtime.dll
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.csproj.AssemblyReference.cache
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.g.i.cs
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.g.cs
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\XamlTypeInfo.g.cs
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xaml
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\Platforms\Windows\App.xbf
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\XamlSaveStateFile.xml
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\mauiimage.inputs
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\mauifont.inputs
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\mauisplash.inputs
@@ -388,6 +389,7 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.AssemblyInfo.cs
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.csproj.CoreCompileInputs.cache
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\XamlC.stamp
+C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\mauimanifest.stamp
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.csproj.CopyComplete
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\OSBookReviewMAUI.dll
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\refint\OSBookReviewMAUI.dll
@@ -410,4 +412,3 @@ C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\qualifiers.txt.intermediate
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\obj\Debug\net6.0-windows10.0.19041\win10-x64\ProjectArchitectures.txt
-C:\Users\revil\OneDrive\VS Back Up\Visual Studio 2015\OSBookReviewMAUI\bin\Debug\net6.0-windows10.0.19041\win10-x64\CommunityToolkit.Mvvm.dll

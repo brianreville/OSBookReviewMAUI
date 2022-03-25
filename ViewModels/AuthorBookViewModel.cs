@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace OSBookReviewMAUI.ViewModels
 {
+    [QueryProperty(nameof(AID), nameof(AID))]
     public partial class AuthorBookViewModel : ObservableObject
     {
 
@@ -19,7 +20,7 @@ namespace OSBookReviewMAUI.ViewModels
 
         public AuthorBookViewModel()
         {
-
+            Books = new();
         }
 
         [ObservableProperty]
@@ -27,6 +28,9 @@ namespace OSBookReviewMAUI.ViewModels
 
         [ObservableProperty]
         string publisherName;
+
+        [ObservableProperty]
+        int aID;
 
         [ObservableProperty]
         ObservableCollection<BookReview> books;
@@ -37,7 +41,7 @@ namespace OSBookReviewMAUI.ViewModels
             try
             {
                 Books.Clear();
-                var sbooks = await BookDataStore.GetListAsync();
+                var sbooks = await BookDataStore.GetListAsync(AID);
                 foreach (BookReview b in sbooks)
                 {
                     Books.Add(b);

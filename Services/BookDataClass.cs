@@ -1,11 +1,6 @@
 ﻿using Microsoft.AppCenter.Crashes;
 using OSBookReviewMAUI.Helpers;
 using OSBookReviewMAUI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OSBookReviewMAUI.Services
 {
@@ -26,14 +21,41 @@ namespace OSBookReviewMAUI.Services
 
         public async Task<IEnumerable<BookReview>> GetListAsync(int AID)
         {
-            return await GetBooks(AID); ;
+            return await GetBooks(AID);
         }
+
+        public async Task<IEnumerable<BookReview>> GetListAsync(string authorname)
+        {
+            return await GetBooks(authorname);
+        }
+
 
         private async Task<List<BookReview>> GetBooks(int AID)
         {
             try
             {
-                string weblink = "api/book/GetAuthorByName?name=";
+                string weblink = $"api/book/GetAuthorBooks?aid={AID}";
+
+                var response = await ApiHelper.GetList<BookReview>(weblink);
+
+                return response;
+
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+
+                List<BookReview> res = new();
+
+                return res;
+            }
+        }
+
+        private async Task<List<BookReview>> GetBooks(string authorname)
+        {
+            try
+            {
+                string weblink = $"api/book/GetAuthorBooksByName?name={authorname}";
 
                 var response = await ApiHelper.GetList<BookReview>(weblink);
 

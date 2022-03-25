@@ -26,7 +26,7 @@
                                        TextColor="Black">
                         </Label>
                         <Label
-                                       Text="{Binding OverallRating, StringFormat='Publisher Name :{0}'}"
+                                       Text="{Binding OverallRating, StringFormat='Author Rating :{0}'}"
                                        LineBreakMode="NoWrap"
                                        FontSize="16"
                                        TextColor="Black">
