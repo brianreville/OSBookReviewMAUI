@@ -3,7 +3,9 @@ using CommunityToolkit.Mvvm.Input;
 using Microsoft.AppCenter.Crashes;
 using OSBookReviewMAUI.Models;
 using OSBookReviewMAUI.Services;
+using OSBookReviewMAUI.Views;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace OSBookReviewMAUI.ViewModels
 {
@@ -17,7 +19,6 @@ namespace OSBookReviewMAUI.ViewModels
         public AuthorViewModel()
         {
             Authors = new();
-            Author = new();
         }
 
         [ObservableProperty]
@@ -27,10 +28,10 @@ namespace OSBookReviewMAUI.ViewModels
         string publisherName;
 
         [ObservableProperty]
-        Author author;
+        ObservableCollection<Author> authors;
 
         [ObservableProperty]
-        ObservableCollection<Author> authors;
+        Author author;
 
 
         public int OverallRating
@@ -57,9 +58,35 @@ namespace OSBookReviewMAUI.ViewModels
             }
         }
 
-        public async void OnAppearing()
+        [ICommand]
+        private async Task Search(string name)
         {
-            await LoadItemsCommand();
+
+            try
+            {
+                Authors.Clear();
+                var authors = await AuthorDataStore.GetListAsync(name);
+                foreach (Author a in authors)
+                {
+                    Authors.Add(a);
+                }
+            }
+            catch (Exception ex)
+            {
+                Crashes.TrackError(ex);
+            }
+        }
+
+        [ICommand]
+        async void OnAuthorSelected(Author author)
+        {
+            if (author == null)
+                return;
+            else
+            {
+                // This will push the AuthorDetailPage onto the navigation stack
+                await Shell.Current.GoToAsync($"{nameof(AuthorBooks)}?{nameof(AuthorBookViewModel.AID)}={author.AID}");
+            }
         }
     }
 }

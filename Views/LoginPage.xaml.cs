@@ -12,15 +12,13 @@ namespace OSBookReviewMAUI.Views
             InitializeComponent();
             BindingContext = _viewModel = new LoginViewModel();
         }
-
-        private void Password_TextChanged(object sender, TextChangedEventArgs e)
+        // to hide the tab and nav bar
+        protected override void OnAppearing()
         {
-            _viewModel.Password = e.NewTextValue;
-        }
+            base.OnAppearing();
+            Shell.SetNavBarIsVisible(this, false);
+            Shell.SetTabBarIsVisible(this, false);
 
-        private void Username_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            _viewModel.Username = e.NewTextValue;
         }
     }
 }

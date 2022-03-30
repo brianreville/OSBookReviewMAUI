@@ -35,13 +35,13 @@
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP={DynamicResource Primary}, iOS={DynamicResource Primary}}" />
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{DynamicResource Secondary}" />
+                                    <Setter Property="BackgroundColor" Value="{x:OnPlatform UWP={DynamicResource PrimaryColor}, iOS={DynamicResource PrimaryColor}}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{DynamicResource SecondaryColor}" />
                                 </VisualState.Setters>
                             </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="{DynamicResource Primary}" />
+                                    <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -58,7 +58,7 @@
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{DynamicResource Secondary}" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{DynamicResource SecondaryColor}" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -70,7 +70,8 @@
     
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
         <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate Pages:AboutPage}" />
-        <ShellContent Title="Author List" Icon="tab_feed.png" Route="AuthorList" ContentTemplate="{DataTemplate Pages:AuthorList}" />
+        <ShellContent Title="Author Top 50 List" Icon="tab_feed.png" Route="AuthorList" ContentTemplate="{DataTemplate Pages:AuthorList}" />
+        <ShellContent Title="Author Search Page" Icon="tab_feed.png" Route="AuthorPage" ContentTemplate="{DataTemplate Pages:AuthorPage}" />
     </FlyoutItem>
     <!-- Add Logout Option to Flyout Men -->
     <MenuItem 
