@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:OSBookReviewMAUI.Models"
+             xmlns:local="clr-namespace:OSBookReviewMAUI.ViewModels"
+             x:DataType="local:BookReviewViewModel"          
+             x:Class="OSBookReviewMAUI.Views.BookReview">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="{DynamicResource PrimaryColor}">
+            <StackLayout 
+                         x:Name="Stack"
+                         Padding="40" 
+                         BackgroundColor="{DynamicResource TertiaryColor}"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand">
+                <Image Grid.RowSpan="4"
+                               Grid.Column="0"
+                               Source="{Binding ImageUrlS}"
+                               Aspect="AspectFill"
+                               HorizontalOptions="FillAndExpand"                                                      
+                               VerticalOptions="FillAndExpand"
+                               HeightRequest="80"
+                               WidthRequest="80" />
+                <Label
+                    Text="{Binding Book.AuthorName , StringFormat='Author Name :{0}'}"
+                    LineBreakMode="NoWrap"
+                    FontSize="20"
+                    TextColor="Black">
+                </Label>
+                <Label
+                    Text="{Binding Book.PublisherName, StringFormat='Publisher Name :{0}'}"
+                    LineBreakMode="NoWrap"
+                    FontSize="20"
+                    TextColor="Black">
+                </Label>               
+                <Label
+                        Text="Please Select Your Desired Book Rating"
+                        TextColor="Black"
+                        FontSize="20">
+                </Label>
+                <Picker
+                        Title="Please Select Your Desired Book Rating"
+                        ItemsSource="{Binding Ratings}"
+                        SelectedItem="{Binding Rating}"
+                        HorizontalOptions="FillAndExpand"
+                        FontSize="20">
+                </Picker>
+                <Button 
+                        Text="Submit Review"
+                        TextColor="Black"
+                        FontSize="20"
+                        Command="{Binding AddReviewCommand}">
+                </Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

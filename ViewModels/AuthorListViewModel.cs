@@ -69,8 +69,6 @@ namespace OSBookReviewMAUI.ViewModels
                 // This will push the AuthorDetailPage onto the navigation stack
                 await Shell.Current.GoToAsync($"{nameof(AuthorBooks)}?{nameof(AuthorBookViewModel.AID)}={author.AID}");
             }
-
-
         }
     }
 }

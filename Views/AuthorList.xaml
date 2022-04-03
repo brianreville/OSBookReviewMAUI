@@ -7,6 +7,7 @@
              x:Class="OSBookReviewMAUI.Views.AuthorList">
     <ContentPage.Content>
         <RefreshView x:DataType="local:AuthorListViewModel" Command="{Binding LoadAuthorsCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+            <ScrollView>
             <StackLayout Margin="2">
                 <Label
                     Text="Top 50 Authors List"
@@ -38,6 +39,7 @@
                     </CollectionView.ItemTemplate>
                 </CollectionView>
             </StackLayout>
+            </ScrollView>
         </RefreshView>
     </ContentPage.Content>
 </ContentPage>

@@ -1,14 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.AppCenter.Crashes;
-using OSBookReviewMAUI.Models;
 using OSBookReviewMAUI.Services;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OSBookReviewMAUI.ViewModels
 {
@@ -16,7 +10,7 @@ namespace OSBookReviewMAUI.ViewModels
     public partial class AuthorBookViewModel : ObservableObject
     {
 
-        public IDataStore<BookReview> BookDataStore => DependencyService.Get<IDataStore<BookReview>>();
+        public IDataStore<Models.BookReview> BookDataStore => DependencyService.Get<IDataStore<Models.BookReview>>();
 
         public AuthorBookViewModel()
         {
@@ -33,7 +27,7 @@ namespace OSBookReviewMAUI.ViewModels
         int aID;
 
         [ObservableProperty]
-        ObservableCollection<BookReview> books;
+        ObservableCollection<Models.BookReview> books;
 
         [ICommand]
         async Task LoadItemsCommand()
@@ -42,7 +36,7 @@ namespace OSBookReviewMAUI.ViewModels
             {
                 Books.Clear();
                 var sbooks = await BookDataStore.GetListAsync(AID);
-                foreach (BookReview b in sbooks)
+                foreach (Models.BookReview b in sbooks)
                 {
                     Books.Add(b);
                 }
@@ -52,7 +46,17 @@ namespace OSBookReviewMAUI.ViewModels
                 Crashes.TrackError(ex);
             }
         }
-
+        [ICommand]
+        public async void BookTapped(Models.BookReview book)
+        {
+            if (book == null)
+                return;
+            else
+            {
+                // This will push the AuthorDetailPage onto the navigation stack
+                await Shell.Current.GoToAsync($"{nameof(Views.BookReview)}?{nameof(BookReviewViewModel.BDID)}={book.BDID}");
+            }
+        }
         public async void OnAppearing()
         {
             await LoadItemsCommand();

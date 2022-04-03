@@ -51,6 +51,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.Aut
 build_metadata.AdditionalFiles.TargetPath = Views\AuthorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\AuthorPage.xaml
 
+[C:/Users/revil/OneDrive/VS Back Up/Visual Studio 2015/OSBookReviewMAUI/Views/BookReview.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.BookReview.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\BookReview.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\BookReview.xaml
+
 [C:/Users/revil/OneDrive/VS Back Up/Visual Studio 2015/OSBookReviewMAUI/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = OSBookReviewMAUI.Views.LoginPage.xaml

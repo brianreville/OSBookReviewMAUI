@@ -7,6 +7,7 @@
 
             <Color x:Key="PrimaryColor">#512bdf</Color>
             <Color x:Key="SecondaryColor">LightBlue</Color>
+            <Color x:Key="TertiaryColor">#b9df2b</Color>
 
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryColor}" />

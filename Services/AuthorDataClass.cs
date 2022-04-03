@@ -1,12 +1,7 @@
 ﻿using Microsoft.AppCenter.Crashes;
 using OSBookReviewMAUI.Helpers;
 using OSBookReviewMAUI.Models;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OSBookReviewMAUI.Services
 {
@@ -16,6 +11,23 @@ namespace OSBookReviewMAUI.Services
         public AuthorDataClass()
         {
 
+        }
+        // currently not required
+        //TODO Add functionality for adding author details
+        public Task<bool> AddRecord(Author item)
+        {
+            throw new NotImplementedException();
+        }
+        // currently not requied
+        //TODO Add functionality for updating author details
+        public Task<bool> UpdateRecord(Author item)
+        {
+            throw new NotImplementedException();
+        }
+        // not required impleneted using list function instead
+        public Task<Author> GetSingle(int ID)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Author>> GetListAsync()
@@ -98,5 +110,6 @@ namespace OSBookReviewMAUI.Services
                 return res;
             }
         }
+
     }
 }

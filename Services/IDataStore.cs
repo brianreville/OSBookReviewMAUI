@@ -1,5 +1,4 @@
 ﻿using OSBookReviewMAUI.Helpers;
-using OSBookReviewMAUI.Models;
 
 namespace OSBookReviewMAUI.Services
 {
@@ -7,8 +6,11 @@ namespace OSBookReviewMAUI.Services
     {
         IApiHelper ApiHelper { get; }
 
+        Task<bool> AddRecord(T item);
+        Task<bool> UpdateRecord(T item);
         Task<IEnumerable<T>> GetListAsync();
         Task<IEnumerable<T>> GetListAsync(int AID);
         Task<IEnumerable<T>> GetListAsync(string authorname);
+        Task<T> GetSingle(int ID);
     }
 }

@@ -12,6 +12,8 @@ namespace OSBookReviewMAUI.ViewModels
         public IApiHelper ApiHelper => DependencyService.Get<ApiHelper>();
         // register dependency injection in base view model
         public IDataStore<Author> AuthorDataStore => DependencyService.Get<IDataStore<Author>>();
+        public IDataStore<BookReview> BookDataStore => DependencyService.Get<IDataStore<BookReview>>();
+
 
         bool _isBusy = false;
         public bool IsBusy

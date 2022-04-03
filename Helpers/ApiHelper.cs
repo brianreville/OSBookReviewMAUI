@@ -1,13 +1,7 @@
 ﻿using Microsoft.AppCenter.Crashes;
 using Newtonsoft.Json;
 using OSBookReviewMAUI.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Net.Http.Headers;
-using System.Threading.Tasks;
 
 namespace OSBookReviewMAUI.Helpers
 {
@@ -94,6 +88,38 @@ namespace OSBookReviewMAUI.Helpers
                 return res;
             }
 
+        }
+        /// <summary>
+        ///  Return a single object of TypeT
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="url"></param>
+        /// <returns></returns>
+        public async Task<T> GetSingleObject<T>(string url)
+        {
+            try
+            {
+                HttpResponseMessage response = await ApiClient.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadAsStringAsync();
+                    var res = JsonConvert.DeserializeObject<T>(result);
+                    return res;
+                }
+                else
+                {
+                    var res = default(T);
+                    return res;
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                Crashes.TrackError(ex);
+                var res = default(T);
+                return res;
+            }
         }
         // complets a put http request
         public async Task<HttpResponseMessage> PutRequest(string url, HttpContent data)
