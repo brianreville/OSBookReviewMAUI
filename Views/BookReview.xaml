@@ -11,45 +11,54 @@
                          x:Name="Stack"
                          Padding="40" 
                          BackgroundColor="{DynamicResource TertiaryColor}"
-                         HorizontalOptions="FillAndExpand"
+                         HorizontalOptions="CenterAndExpand"
                          VerticalOptions="FillAndExpand">
                 <Image Grid.RowSpan="4"
                                Grid.Column="0"
-                               Source="{Binding ImageUrlS}"
+                               Source="{Binding Book.ImageUrlL}"
                                Aspect="AspectFill"
-                               HorizontalOptions="FillAndExpand"                                                      
-                               VerticalOptions="FillAndExpand"
-                               HeightRequest="80"
-                               WidthRequest="80" />
+                               HorizontalOptions="CenterAndExpand" 
+                               HeightRequest="150"
+                               WidthRequest="150" />
                 <Label
                     Text="{Binding Book.AuthorName , StringFormat='Author Name :{0}'}"
                     LineBreakMode="NoWrap"
                     FontSize="20"
-                    TextColor="Black">
+                    TextColor="Black"
+                    HorizontalOptions="CenterAndExpand">
                 </Label>
                 <Label
                     Text="{Binding Book.PublisherName, StringFormat='Publisher Name :{0}'}"
                     LineBreakMode="NoWrap"
                     FontSize="20"
-                    TextColor="Black">
-                </Label>               
-                <Label
-                        Text="Please Select Your Desired Book Rating"
-                        TextColor="Black"
-                        FontSize="20">
-                </Label>
+                    TextColor="Black"
+                    HorizontalOptions="CenterAndExpand">
+                </Label>   
                 <Picker
                         Title="Please Select Your Desired Book Rating"
                         ItemsSource="{Binding Ratings}"
                         SelectedItem="{Binding Rating}"
-                        HorizontalOptions="FillAndExpand"
+                        HorizontalOptions="CenterAndExpand"
                         FontSize="20">
                 </Picker>
+                <Label
+                     Text="Please leave review comments"
+                        TextColor="Black"
+                        LineBreakMode="NoWrap"
+                        FontSize="20"
+                        HorizontalOptions="CenterAndExpand">                    
+                </Label>
+                <Editor Text="{Binding Book.ReviewRemarks}"
+                        AutoSize="TextChanges"
+                        HeightRequest="150"
+                        WidthRequest="400"
+                        HorizontalOptions="CenterAndExpand" ></Editor>
                 <Button 
                         Text="Submit Review"
                         TextColor="Black"
                         FontSize="20"
-                        Command="{Binding AddReviewCommand}">
+                        Command="{Binding AddReviewCommand}"
+                        HorizontalOptions="CenterAndExpand">
                 </Button>
             </StackLayout>
         </StackLayout>
