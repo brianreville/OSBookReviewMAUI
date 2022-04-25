@@ -3,6 +3,7 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        x:Class="OSBookReviewMAUI.AppShell"
        xmlns:Pages="clr-namespace:OSBookReviewMAUI.Views"
+       FlyoutHeaderBehavior="CollapseOnScroll"
        Title="AppShell">
     
     <!-- Default Shell Values-->
@@ -69,15 +70,34 @@
    </Shell.Resources>   
     
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="About" Icon="tab_about.png" Route="AboutPage" ContentTemplate="{DataTemplate Pages:AboutPage}" />
-        <ShellContent Title="Author Top 50 List" Icon="tab_feed.png" Route="AuthorList" ContentTemplate="{DataTemplate Pages:AuthorList}" />
-        <ShellContent Title="Author Search Page" Icon="tab_feed.png" Route="AuthorPage" ContentTemplate="{DataTemplate Pages:AuthorPage}" />
+        <ShellContent Title="About"
+                      Route="AboutPage" 
+                      ContentTemplate="{DataTemplate Pages:AboutPage}" 
+        />
+        <ShellContent Title="Author Top 50 List" 
+                      Route="AuthorList" 
+                      ContentTemplate="{DataTemplate Pages:AuthorList}" 
+        />
+        <ShellContent Title="Author Search Page"
+                      Route="AuthorPage" 
+                      ContentTemplate="{DataTemplate Pages:AuthorPage}" 
+        />
     </FlyoutItem>
     <!-- Add Logout Option to Flyout Men -->
     <MenuItem 
-        Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+        Text="Logout" 
+        StyleClass="MenuItemLayoutStyle" 
+        Clicked="OnMenuItemClicked"
+    >
+    </MenuItem>
+    <MenuItem
+        Text="Help"
+        StyleClass="MenuItemLayoutStyle"
+    >        
     </MenuItem>
     <TabBar>
-        <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate Pages:LoginPage}" />
+        <ShellContent Route="LoginPage"
+                      ContentTemplate="{DataTemplate Pages:LoginPage}" 
+        />
     </TabBar>
 </Shell>

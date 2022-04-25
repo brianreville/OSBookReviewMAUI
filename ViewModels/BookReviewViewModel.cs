@@ -58,6 +58,7 @@ namespace OSBookReviewMAUI.ViewModels
                 if (res)
                 {
                     await App.Current.MainPage.DisplayAlert("Review Notification", "Book Review Successfully Added", "Okay");
+                    await Shell.Current.GoToAsync("..");
                 }
                 else
                 {
@@ -67,6 +68,7 @@ namespace OSBookReviewMAUI.ViewModels
             catch (Exception ex)
             {
                 Crashes.TrackError(ex); await App.Current.MainPage.DisplayAlert("Error Notification", " Error Adding Book Review", "Okay");
+                await Shell.Current.GoToAsync("..");
             }
         }
     }
