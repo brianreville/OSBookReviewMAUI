@@ -10,53 +10,37 @@
   "projectFileDependencyGroups": {
     "net6.0-android": [
       "Dapper >= 2.0.123",
-      "Microsoft.AppCenter >= 4.5.0",
-      "Microsoft.AppCenter.Analytics >= 4.5.0",
-      "Microsoft.AppCenter.Crashes >= 4.5.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.NETCore.App >= 2.2.8",
       "Newtonsoft.Json >= 13.0.1",
       "System.Configuration.ConfigurationManager >= 6.0.0",
-      "System.Data.SqlClient >= 4.8.3",
-      "Xam.Plugins.Settings >= 3.1.1"
+      "System.Data.SqlClient >= 4.8.3"
     ],
     "net6.0-ios": [
       "Dapper >= 2.0.123",
-      "Microsoft.AppCenter >= 4.5.0",
-      "Microsoft.AppCenter.Analytics >= 4.5.0",
-      "Microsoft.AppCenter.Crashes >= 4.5.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.NETCore.App >= 2.2.8",
       "Newtonsoft.Json >= 13.0.1",
       "System.Configuration.ConfigurationManager >= 6.0.0",
-      "System.Data.SqlClient >= 4.8.3",
-      "Xam.Plugins.Settings >= 3.1.1"
+      "System.Data.SqlClient >= 4.8.3"
     ],
     "net6.0-maccatalyst": [
       "Dapper >= 2.0.123",
-      "Microsoft.AppCenter >= 4.5.0",
-      "Microsoft.AppCenter.Analytics >= 4.5.0",
-      "Microsoft.AppCenter.Crashes >= 4.5.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.NETCore.App >= 2.2.8",
       "Newtonsoft.Json >= 13.0.1",
       "System.Configuration.ConfigurationManager >= 6.0.0",
-      "System.Data.SqlClient >= 4.8.3",
-      "Xam.Plugins.Settings >= 3.1.1"
+      "System.Data.SqlClient >= 4.8.3"
     ],
     "net6.0-windows10.0.19041": [
       "Dapper >= 2.0.123",
-      "Microsoft.AppCenter >= 4.5.0",
-      "Microsoft.AppCenter.Analytics >= 4.5.0",
-      "Microsoft.AppCenter.Crashes >= 4.5.0",
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.Graphics.Win2D >= 1.0.0.30",
       "Microsoft.NETCore.App >= 2.2.8",
       "Microsoft.WindowsAppSDK >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "System.Configuration.ConfigurationManager >= 6.0.0",
-      "System.Data.SqlClient >= 4.8.3",
-      "Xam.Plugins.Settings >= 3.1.1"
+      "System.Data.SqlClient >= 4.8.3"
     ]
   },
   "packageFolders": {
@@ -118,18 +102,6 @@
             "target": "Package",
             "version": "[2.0.123, )"
           },
-          "Microsoft.AppCenter": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Analytics": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Crashes": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[5.2.7, )"
@@ -149,10 +121,6 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.3, )"
-          },
-          "Xam.Plugins.Settings": {
-            "target": "Package",
-            "version": "[3.1.1, )"
           }
         },
         "imports": [
@@ -179,18 +147,6 @@
             "target": "Package",
             "version": "[2.0.123, )"
           },
-          "Microsoft.AppCenter": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Analytics": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Crashes": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[5.2.7, )"
@@ -210,10 +166,6 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.3, )"
-          },
-          "Xam.Plugins.Settings": {
-            "target": "Package",
-            "version": "[3.1.1, )"
           }
         },
         "imports": [
@@ -240,18 +192,6 @@
             "target": "Package",
             "version": "[2.0.123, )"
           },
-          "Microsoft.AppCenter": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Analytics": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Crashes": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
             "version": "[5.2.7, )"
@@ -271,10 +211,6 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.3, )"
-          },
-          "Xam.Plugins.Settings": {
-            "target": "Package",
-            "version": "[3.1.1, )"
           }
         },
         "imports": [
@@ -300,18 +236,6 @@
           "Dapper": {
             "target": "Package",
             "version": "[2.0.123, )"
-          },
-          "Microsoft.AppCenter": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Analytics": {
-            "target": "Package",
-            "version": "[4.5.0, )"
-          },
-          "Microsoft.AppCenter.Crashes": {
-            "target": "Package",
-            "version": "[4.5.0, )"
           },
           "Microsoft.AspNet.WebApi.Client": {
             "target": "Package",
@@ -340,10 +264,6 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.3, )"
-          },
-          "Xam.Plugins.Settings": {
-            "target": "Package",
-            "version": "[3.1.1, )"
           }
         },
         "imports": [
