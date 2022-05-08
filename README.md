@@ -27,3 +27,15 @@ Please see associated repository
 ### Web API Unit Testing Project
 Please see associated repository
 [OS Book Review Tests  ](https://github.com/brianreville/OSBookReviewTests)
+
+
+## Useful Links for .net Maui development
+Offical .Net MAUI Page
+[.Net MAUI Page](https://dotnet.microsoft.com/en-us/apps/maui) 
+
+James Montegagno Youtube Video link. James is a Mircosoft Coder who speciales in mobile app developement and 
+major contributor to various .net Open Source Projects 
+[James Montemagno YouTube Channel](https://www.youtube.com/c/JamesMontemagno/playlists) 
+
+MAUI Git-Hup Repository(It is an open source project itself)
+[MAUI Git-Repo](https://github.com/dotnet/maui)
